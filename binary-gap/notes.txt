@@ -1,0 +1,16 @@
+BITWISE
+One of the first things to understand is bitwise operators. See https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5 for source and for my replit playing with these things https://repl.it/@chazz505/Binary-Gaps. At any rate bitwise behave very particularly. In the linked example, bitwise saves the day from essentially doubling the amount of code every time a new foo is added. Bitwise operators work on the bits (ones and zeroes) that represent each integer, allowing comparison and manipulation.
+
+To see what a numbers is represented in binary you do a (number).toString(2);
+	Ex. console.log((4).toString(2));
+			//returns 100
+
+The bitwise operators: With these keep in mind binary counts go right-to-left first which means if a bit has a value of 1000, the first attribute is 1 or 0001 and the fourth is 1000....Weird, just keep in mind binary is always represented by 4 digits at least (which is why the first one is 0001).
+NOTICE: To represent binary put 0b before the binary you want to include. See the replit link above for example.
+
+OPERATORS
+<< 		Puts zeroes on the right of the binary string, increasing your integer decimal-value according to binary rules.
+			See the attached link for more on this, but a binary of 10 and then << 1 would result in a new binary of 100.
+&			Returns a binary rep of the intersection of two numbers being compared. That is for each matching one it will be in the new value.
+			Ex. 1010 & 1001 will return 1000, because the leftmost 1 is the only bit in common between the two.
+|			Returns the union of two binary reps of two numbers. I.e. every single 1 will be added to the newly created binary.
