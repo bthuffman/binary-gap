@@ -1,0 +1,3 @@
+https://repl.it/@chazz505/missing-integer
+Solution credit to:
+https://stackoverflow.com/questions/32983237/codility-permmissingelem-solution-in-javascript
