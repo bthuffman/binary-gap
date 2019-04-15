@@ -1,0 +1,2 @@
+https://github.com/yaseenshaik/codility-solutions-javascript/blob/master/FrogRiverOne.md
+https://gist.github.com/matheushf/d1237d8d78865b328d63a96f6c632c36

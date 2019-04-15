@@ -1,4 +1,4 @@
-//This first one works. Both use a magical mathematical equation that pulls the length of an array into a formula and use it to find a missing number in what should be a consecutive list. See replit in notes for series of other attempts that maybe were never going to work.
+//This one works. Both use a magical mathematical equation that pulls the length of an array into a formula and use it to find a missing number in what should be a consecutive list. See replit in notes for series of other attempts that maybe were never going to work.
 arrayOne = [1, 2, 3, 5, 6, 7, 8, 9, 10];
 
 function solution(A) {
