@@ -18,13 +18,13 @@ function solution(N, A) {
 			if (counters[indexNewArray] < minimumNumberInNewArray) counters[indexNewArray] = minimumNumberInNewArray;
 			//add one to the targeted index value
 			counters[indexNewArray]++;
-			//insures that maximumNumberInNewArray is always = to the highest index value in the counters array if it is less than the index value else set the minimumNumberInNewArray = maximumNumberInNewArray (which effectively will insure the minimumNumber value is tracked in said that minimumNumberInNewArray value.
+			//insures that maximumNumberInNewArray is always = to the highest index value in the counters array if it is less than the index value else set the minimumNumberInNewArray = maximumNumberInNewArray (which effectively will insure the minimumNumber value is tracked inside that minimumNumberInNewArray value.
 			if (maximumNumberInNewArray < counters[indexNewArray]) maximumNumberInNewArray = counters[indexNewArray];
 		} else {
 			minimumNumberInNewArray = maximumNumberInNewArray;
 		}
 	}
-
+//this insures that the current index is set to the current minimumNumberInNewArray
 	for(index = 0; index < N; index++){
 		if (counters[index] < minimumNumberInNewArray) counters[index] = minimumNumberInNewArray;
 	}
